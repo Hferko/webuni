@@ -1,0 +1,19 @@
+﻿@model Ember
+
+Jelenleg bejelentkezett felhasználó:
+<span id="cookies"></span>
+
+@using(Html.BeginForm("Sikeres", "Ember", FormMethod.Post))
+{
+    <label for="Nev">Adja meg kérem a nevét</label>   
+    <br/>
+    <input type="text" asp-for="Nev" placeholder="Név">
+    //@Html.TextBoxFor(m => m.Nev);
+    <br/>
+     <label for="Szul">A születési éve</label>
+     <br/>
+     <input type="number" asp-for="Szul" min="1920" max="2023" placeholder="1920" value="1920">
+    //@Html.TextBoxFor(m => m.Szul);
+    <br/>
+    <input type="submit">
+}

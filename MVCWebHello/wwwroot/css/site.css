@@ -1,0 +1,75 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffe6cc;
+}
+
+h1{
+    text-align:center;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        color: green;
+    }
+
+.nav-item:hover, .navbar-brand:hover {
+    background-color: maroon !important;
+    transition: all 0.3s ease 0s;
+    border-radius: 4px;
+}
+
+input[type=text],
+input[type=number] {
+    width: 40%;
+    padding: 6px;
+    border: thin solid grey;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: #FFFACD;
+    margin: 10px auto;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    width: 40%;
+}
+
+#lab {
+    color: aquamarine;
+}
+
+.float-end img {
+    height: 40px;
+    width: auto;
+    padding: 0 5px;
+}
+
+.float-end img:hover {
+    background-color: lime;
+    transition: all 1s ease 0s;
+    border-radius: 5px;
+}
+
+.zold{
+    color:darkgreen;
+    font-weight:600;
+}

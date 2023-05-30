@@ -1,0 +1,28 @@
+﻿@model Ember
+
+<h1><span class="zold">@Model.Udv( @Model.Nev)</span></h1>
+<p style="text-align:center">Ön sikeresen regisztrált</p>
+
+</br>
+Adatai:
+</br>
+Neve: <span class="zold"> @Model.Nev </span> 
+</br>
+Születési éve: <span class="zold"> @Model.Szul</span>
+</br> 
+Az Ön látható IP-címe (vagy VPN):
+<span class="zold"> @Model.Csinald()</span>
+
+<h5 style="text-align:right">
+ @Model.Korod( @Model.Szul) 
+</h5>
+</br>
+<!--Ön belépett, mint: <span class="zold"> @Model.Belepve </span>-->
+Az adatok mentésre kerültek Ide (ezt nem kell, hogy lássa a user):
+
+<p class="zold">@Model.FileIro(@Model.Nev)</p>
+
+
+
+
+ 
